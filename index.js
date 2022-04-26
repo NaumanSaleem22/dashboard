@@ -32,8 +32,7 @@ Orders.forEach((order) => {
                     ? "warning"
                     : "primary"
                 }">${order.shipping}</td>
-                <td class="primary">Details</td>
-        
+                <td class="primary">Details</td>   
     `;
 
   tr.innerHTML = trContent;
